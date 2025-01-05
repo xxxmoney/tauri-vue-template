@@ -7,3 +7,6 @@
  - Pinia Store
  - PrimeVue Components
  - TailwindCss
+ - VueRouter
+ - Vitest Tests
+ - Axios
