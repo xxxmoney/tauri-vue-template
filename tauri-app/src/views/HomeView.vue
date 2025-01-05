@@ -5,5 +5,3 @@ import HomeSample from '@/components/views/home/HomeSample.vue';
 <template>
   <HomeSample />
 </template>
-
-<style scoped></style>
