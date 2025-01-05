@@ -10,3 +10,5 @@
  - VueRouter
  - Vitest Tests
  - Axios
+ - Eslint and Prettier
+ - Luxon
