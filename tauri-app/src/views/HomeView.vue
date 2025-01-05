@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import HeroSample from '@/components/views/home/HeroSample.vue';
+import HomeSample from '@/components/views/home/HomeSample.vue';
 </script>
 
 <template>
-  <HeroSample />
+  <HomeSample />
 </template>
 
 <style scoped></style>
