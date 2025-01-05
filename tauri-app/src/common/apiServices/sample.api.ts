@@ -1,9 +1,11 @@
-import { api } from '@/axios';
+import { api } from '../../axios';
 
 export const SampleApi = {
-  get() {
-    const response = api.get();
+  async get() {
+    const response = await api.get<number[]>(
+      'http://www.randomnumberapi.com/api/v1.0/random?min=100&max=1000&count=1'
+    );
 
-    return {};
+    return response.data;
   }
 };
